@@ -1,0 +1,44 @@
+//Colours
+$white: #FFFFFF;
+$dark-grey: #404040;
+$light-grey: #F3F3F3;
+$blue-grey: #313840;
+$black: #000000;
+$light-blue: #009ADD;
+$baby-blue: #e6f9ff;
+$blue: #162f85;
+$green: #8bc540;
+$dark-green: #4F793D;
+$background: #F3F3F3;
+$red: #da2d5b;
+
+//Variables
+.ctaButton {
+    float: right;
+    margin-top: 10%;
+    padding: 5px 30px;
+    border-radius: 25px;
+
+    &--green {
+      color: $green;
+      border: 3px solid $green;
+      font-size: 25px;
+    }
+
+}
+
+.ctaButton--green:hover {
+  text-decoration: none;
+  color: $white;
+  background-color: $green;
+}
+
+.contactButton {
+
+  &--green {
+    background-color: $green;
+    border: none !important;
+    color: $white;
+    font-weight: bold;
+  }
+}
